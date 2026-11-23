@@ -82,29 +82,26 @@ A personal portfolio for Nouh, a Digital Development student in Casablanca, Moro
 | `npm run seed-projects` | Adds starter projects when none exist |
 | `npm run build` | Creates an optimized production build |
 
-## Push to GitHub
+## GitHub
 
-1. Create an empty repository on GitHub. Do not initialize it with another README, license, or `.gitignore`.
-2. From PowerShell in the project folder, replace `YOUR_USERNAME` with your GitHub username and run:
+Repository: [atanannouh-dev/nouh-portfolio](https://github.com/atanannouh-dev/nouh-portfolio)
+
+To publish future changes, run these commands from the project root (the folder containing `package.json`):
 
    ```powershell
-   git init
+   git status --short
    git add .
    git status --short
    ```
 
-   Review the staged files. `.env`, `node_modules`, `build`, and `server/uploads` must not appear.
+Review the staged files before committing. `.env`, `node_modules`, `build`, and `server/uploads` must not appear.
 
-3. If the staged files look right, commit and push:
+If the files look right, commit and push:
 
-   ```powershell
-   git commit -m "Add portfolio project"
-   git branch -M main
-   git remote add origin https://github.com/YOUR_USERNAME/nouh-portfolio.git
-   git push -u origin main
-   ```
-
-   If you named the GitHub repository differently, use its URL in the `git remote add` command.
+```powershell
+git commit -m "Describe your changes"
+git push
+```
 
 ## Deployment Notes
 
