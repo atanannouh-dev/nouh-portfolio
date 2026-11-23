@@ -1,0 +1,31 @@
+{
+  "personalInfo": {
+    "name": "Nouh",
+    "field": "Digital Development",
+    "role": "Student",
+    "location": "Casablanca, Morocco",
+    "about": "I'm a Digital Development student from Casablanca, Morocco, passionate about programming, web development and technology. I enjoy creating useful applications, learning new technologies and solving real-world problems."
+  },
+  "contact": {
+    "phone": "+212681275020",
+    "email": "atanannouh05@gmail.com",
+    "whatsapp": "https://wa.me/+212681275020",
+    "github": "https://github.com/atanannouh-dev",
+    "linkedin": "https://www.linkedin.com/in/nouh-atanan-451402451?utm_source=share_via&utm_content=portfolio&utm_medium=member_ios",
+    "instagram": "https://www.instagram.com/nouh_atanan?gwpx=N2ZmemFiNzhoN2c5&utm_source=qr"
+  },
+  "skills": {
+    "Frontend": ["HTML", "CSS", "JavaScript", "React"],
+    "Backend": ["PHP", "Laravel", "Node.js"],
+    "Database": ["MySQL", "SQL"],
+    "Tools": ["Git", "GitHub", "VS Code", "XAMPP"]
+  },
+  "services": [
+    "Website Development",
+    "Frontend Development",
+    "Backend Development",
+    "Responsive Web Design",
+    "Database Design",
+    "Web Application Development"
+  ]
+}

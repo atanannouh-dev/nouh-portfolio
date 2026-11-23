@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title description">
+  <title id="title">Nouh developer logo</title>
+  <desc id="description">Minimal metallic gold N monogram with coding brackets on a deep black background</desc>
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f0d58a"/>
+      <stop offset="0.48" stop-color="#c6a15b"/>
+      <stop offset="1" stop-color="#8d682d"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="40" fill="#080808"/>
+
+  <g fill="none" stroke="url(#gold)" stroke-width="16" stroke-linecap="square" stroke-linejoin="miter">
+    <path d="M152 174l-48 48 48 48"/>
+    <path d="M360 174l48 48-48 48"/>
+  </g>
+
+  <g fill="url(#gold)">
+    <path d="M176 152h44l72 126V152h44v208h-44l-72-126v126h-44V152z"/>
+  </g>
+
+  <text x="256" y="402" fill="url(#gold)" font-family="Montserrat,Arial,sans-serif"
+    font-size="58" font-weight="700" letter-spacing="18" text-anchor="middle">NOUH</text>
+</svg>

@@ -1,0 +1,42 @@
+{
+  "name": "nouh-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@google/genai": "^3.6.1",
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^9.1.2",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^2.5.0",
+    "mysql2": "^3.14.0",
+    "nodemailer": "^10.6.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "react-toastify": "^11.2.0"
+  },
+  "scripts": {
+    "start": "concurrently -k \"node server/index.js\" \"react-scripts start\"",
+    "server": "node server/index.js",
+    "create-admin": "node server/create-admin.js",
+    "seed-projects": "node server/seed-projects.js",
+    "build": "react-scripts build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead"
+    ],
+    "development": [
+      "last 1 chrome version"
+    ]
+  },
+  "proxy": "http://localhost:5000"
+}
